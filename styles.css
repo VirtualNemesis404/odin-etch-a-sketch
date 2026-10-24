@@ -10,3 +10,13 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.grid-setting{
+    width: 960px;
+    text-align: center;
+    margin: 10px;
+}
+
+.btn{
+    padding: 4px 8px;
+}
