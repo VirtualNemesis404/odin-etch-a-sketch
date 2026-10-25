@@ -1,6 +1,9 @@
 
 function colorChange(event){
-    event.target.style.backgroundColor = "red";
+    const red = Math.round((Math.random()*255))
+    const blue = Math.round((Math.random()*255))
+    const green = Math.round((Math.random()*255))
+    event.target.style.backgroundColor = `rgb(${red} ${blue} ${green})`;
 }
 
 function hover(event){
